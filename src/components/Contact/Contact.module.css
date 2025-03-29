@@ -1,0 +1,45 @@
+.containerName {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+ 
+}
+.containerNumber {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contactDiv {
+  border: 2px solid rgb(109, 139, 158);
+  border-radius: 5px;
+  background-color: rgb(167, 171, 172);
+  width: 250px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 5px;
+}
+.btn {
+  width: 60px;
+  height: 30px;
+  font-size: 16px;
+}
+.name {
+font-size: 16px; 
+font-weight: bold;   
+
+}
+.number {
+ font-size: 14px;    
+  font-style: italic;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
